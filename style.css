@@ -1,0 +1,110 @@
+*{
+    background-color: rgb(35, 33, 33);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 60px;
+    background-color: beige;
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 5px solid #150505;
+}
+
+.box{
+    color: aliceblue;
+    text-align: center;
+    padding: 0px 40px;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+h1{
+    font-size: 3rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+.height{
+    padding: 0px 20px;
+    display: flex;
+    font-size: 2rem;
+    gap: 10px;
+}
+
+.height input{
+    width: 13vw;
+    padding: 0px 5px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.height input::placeholder{
+    font-size: 1.2rem;
+}
+.weight{
+    margin-top: 10px;
+    padding: 0px 20px;
+    display: flex;
+    font-size: 2rem;
+    gap: 10px;
+}
+
+.weight input{
+    width: 13vw;
+    padding: 0px 5px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.weight input::placeholder{
+    font-size: 1.2rem;
+}
+.btn{
+    background-color: aliceblue;
+    color: #150505;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 40px;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+.btn:hover{
+    box-shadow:  -2px -3px 20px #a1a1a1,
+             2px 2px 20px #bebbbb;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.result{
+    margin-top: 10px;
+    font-size: 1.5rem;
+
+}
+
+.result h2{
+    text-align: left;
+    font-size: 3rem;
+}
+
+.result p{
+    color: aquamarine;
+}
